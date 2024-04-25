@@ -526,6 +526,27 @@ h6,
     text-align: center;
 }
 
+
+@media (min-width:320px) and (max-width:575px){
+    .meb-logo img{
+        width: 242px !important;
+    }
+    .carousel-responsive{
+        height: 300px !important;
+        overflow: hidden;
+    }
+    .header-carousel .owl-carousel-item h1 {
+        font-size: 22px;
+        margin-top: -180px;
+    }
+    .header-carousel .owl-carousel-item p {
+        font-size: 12px !important;
+        
+    }
+}
+
+
+
 /* .about-img img{
     height: 400px;
 } */
