@@ -524,12 +524,15 @@ h6,
     }
 }
 
-
-
-/* .about-img img{
-    height: 400px;
-} */
-
 .header-carousel img{
     height: 520px !important;
+}
+
+.text-primary {
+	color: #FFC706 !important;
+    
+}
+.bg-light{
+    background-color: #9fa1a3 !important;
+
 }
