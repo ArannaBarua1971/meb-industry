@@ -536,3 +536,7 @@ h6,
     background-color: #9fa1a3 !important;
 
 }
+.modified-cls{
+    background-color: #f7e4e2;
+    border-radius: 10px;
+}
