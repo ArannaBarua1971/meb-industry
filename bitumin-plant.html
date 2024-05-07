@@ -1,192 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>MEB - Industries</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/favicon.ico" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@600&family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@600&family=Lobster+Two:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <div class="container-xxl bg-white p-0">
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
+      <!-- Spinner Start -->
+      <div
+        id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+      >
+        <div
+          class="spinner-border text-primary"
+          style="width: 3rem; height: 3rem"
+          role="status"
+        >
+          <span class="sr-only">Loading...</span>
         </div>
-        <!-- Spinner End -->
+      </div>
+      <!-- Spinner End -->
 
+      <!-- Navbar Start -->
+      <nav
+        class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0"
+      >
+        <a href="index.html" class="navbar-brand">
+          <h1 class="m-0 text-primary meb-logo">
+            <img src="./img/MEB/MEBLogo/Untitled-2.png" alt="" />
+          </h1>
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav mx-auto">
+            <a href="index.html" class="nav-item nav-link ">Home</a>
+            <a href="about.html" class="nav-item nav-link">About Us</a>
+            <a href="about.html" class="nav-item nav-link">Corporate Vision</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle active"
+                data-bs-toggle="dropdown"
+                >Business activities</a
+              >
+              <div
+                class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0"
+              >
+                <a href="tank-terminal.html" class="dropdown-item"
+                  >Storage Tank Terminal & Delivery Support Services
+                </a>
+                <a href="#" class="dropdown-item active"
+                  >Bitumen Plant & Storage Tank
+                </a>
 
-        <!-- Navbar Start -->
-        <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
-            <a href="index.html" class="navbar-brand">
-                <h1 class="m-0 text-primary meb-logo"><img src="./img/MEB/MEBLogo/Untitled-2.png" alt=""></h1>
-            </a>
-            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav mx-auto">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About Us</a>
-                    <a href="about.html" class="nav-item nav-link">Corporate Vision</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Business activities</a>
-                        <div class="dropdown-menu rounded-0 rounded-bottom border-0 shadow-sm m-0">
-                            <a href="tank-terminal.html" class="dropdown-item">Storage Tank Terminal & Delivery Support Services </a>
-                            <a href="#" class=" dropdown-item" >Bitumen Plant & Storage Tank </a>
-                           
-                            <a href="#" class="dropdown-item">Physical Refinery Unit</a>
-                            <a href="dry-friction.html" class="dropdown-item">Super Oil Refinery & Dry fractionation Unit </a>
-                            <a href="oil-filling.html" class="dropdown-item">Edible Oil Filling Plant </a>
-                            <a href="bottle-making.html" class="dropdown-item">Bottle Making Plant </a>
-                        </div>
-                    </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
-                </div>
-                
+                <a href="#" class="dropdown-item">Physical Refinery Unit</a>
+                <a href="dry-friction.html" class="dropdown-item"
+                  >Super Oil Refinery & Dry fractionation Unit
+                </a>
+                <a href="oil-filling.html" class="dropdown-item"
+                  >Edible Oil Filling Plant
+                </a>
+                <a href="bottle-making.html" class="dropdown-item"
+                  >Bottle Making Plant
+                </a>
+              </div>
             </div>
-        </nav>
-        <!-- Navbar End -->
-
-        <div class="conatiner">
-            <div class="row">
-                <h1 class="mb-4 text-center py-3 my-0">Bitumen Plant & Storage Tank</h1>
-            </div>
+            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+          </div>
         </div>
+      </nav>
+      <!-- Navbar End -->
 
-        <!-- Gallery Start -->
-        <div class="container py-2">
-            <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="row g-5 align-items-center">
-
-                    <img class="col-lg-4" src="./img/MEB/bitumin storages/Bitumen tank.jpg" alt="">
-                    <img class="col-lg-4" src="./img/MEB/bitumin storages/Bitumen Storage.jpg" alt="">
-                </div>
-            </div>
+      <div class="conatiner">
+        <div class="row">
+          <h1 class="mb-4 text-center py-3 my-0">
+            Bitumen Plant & Storage Tank
+          </h1>
         </div>
-        <!-- Gallery End -->
+      </div>
 
-
-         <!-- Innovation start -->
-         <div class="container py-5">
-            <div class="row">
-                <div class="col-lg-12 col-sm-12">
-                    <div class="row"> 
-                        <div class="col-lg-2 col-sm-1">
-
-                        </div>
-                        <div class="col-lg-4 col-sm-4">
-                            <ul>
-                                <li><b>Storage Tank Capacity (Heated) :</b></li>
-                                <li><b>Service (Delivery) Tank capacity :</b></li>
-                                <li><b>Product Turnover (Yearly) :</b> </li>
-                                <li><b>Prime Raw Material :</b> </li>
-                                <li><b>Product :</b></li>
-                                <li><b>Present Status  :</b></li>
-                               
-                                
-                            </ul>
-                        </div>
-                        <div class="col-lg-4 col-sm-4">
-                            <ul type="none">
-                                <li>17,201.714 M.Ton </li>
-                                
-                                <li>700 M.Ton </li>
-                                <li>1,35,000 M.Tons </li>
-                                <li>Bitumen </li>
-                                <li>DADA Brand Bitumen (In Bulk & in drum) </li>
-                                <li>In Operation </li>
-                                
-                            </ul>
-                        </div>
-                        <div class="col-lg-2 col-sm-1"> 
-
-                        </div>
-                    </div>
-                </div>
+      <!-- innovation_gallery -->
+      <div class="innovation_gallery d-flex gap-4 container">
+        <!-- Innovation start -->
+        <div class="py-5 col-lg-4 innovation">
+          <div class="row">
+            <div class="col-lg-12 col-sm-12">
+              <div class="row">
+                <ul class="list-group">
+                  <li class="list-group-item">
+                    <span>Service (Delivery) Tank capacity :</span>
+                    17,201.714 M.Ton
+                  </li>
+                  <li class="list-group-item">
+                    <span>Service (Delivery) Tank capacity :</span>
+                    700 M.Ton
+                  </li>
+                  <li class="list-group-item">
+                    <span>Product Turnover (Yearly) :</span>1,35,000 M.Tons
+                  </li>
+                  <li class="list-group-item">
+                    <span>Prime Raw Material :</span>Bitumen
+                  </li>
+                  <li class="list-group-item">
+                    <span>Product :</span> DADA Brand Bitumen (In Bulk & in drum)
+                  </li>
+                  <li class="list-group-item">
+                    <span>Present Status :</span>  In Operation
+                  </li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
         <!-- Innovation End-->
 
-
-
-
-        <!-- Footer Start -->
-        <div class="container-fluid foot-back text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-lg-4">
-                        <img src="./img/MEB/MEBLogo/Untitled-2.png" alt="" width="250px">
-                        <p class="p-2">
-                            We are dedicated to do business to serve the consumers and customers in a unique and effective way. By doing so we shall aim to be a dominant performer in the business categories that we operate. 
-                        </p>
-                        <p class="mb-2"><i style="color: #ffc706;" class="fa fa-phone-alt me-3"></i>02-41361005</p>
-                        <p class="mb-2"><i style="color: #ffc706;" class="fa fa-fax me-3"></i>02-41361004</p>
-                        <p class="mb-2"><i style="color: #ffc706;" class="fa fa-envelope me-3"></i>info@miclbd.com</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <h3 class="text-white mb-4">Get In Touch</h3>
-                        <p class="mb-2"><b style="color: #ffc706;">Corporate Office :</b> 
-                            Habib’s, (Level-4), 1574/A, East Nasirabad, Bayezid Bostami Road, Opposite side of Nasirabad Housing Society (Road No-03), Panchlaish, Chattogram - 4000, Bangladesh.
-                        </p>
-                        <p class="mb-2"><b style="color: #ffc706;">MICL Sales Office :</b> 269,Khatungonj,Chattogram.</p>
-                        <p class="mb-2"><b style="color: #ffc706;">Factory :</b> North Patenga,CEPZ,CHattogram.</p>
-                        
-                      
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <h3 class="text-white mb-4">Quick Links</h3>
-                        <ul type="square">
-                            <li><a style="color: #ffc706 !important;" class="text-white-50" href="about.html">About Us</a></li>
-                            <li><a style="color: #ffc706 !important;" class="text-white-50" href="tank-terminal.html">Storage Tank Terminal & Delivery Support Services</a></li>
-                            <li><a style="color: #ffc706 !important;" class="text-white-50" href="bitumin-plant.html">Bitumen Plant & Storage Tank</a></li>
-                            <li><a style="color: #ffc706 !important;" class="text-white-50" href="#">Physical Refinery Unit</a></li>
-                            <li><a style="color: #ffc706 !important;" class="text-white-50" href="dry-friction.html">Super Oil Refinery & Dry fractionation Unit</a></li>
-                            <li><a style="color: #ffc706 !important;" class="text-white-50" href="oil-filling.html">Edible Oil Filling Plant </a></li>
-                            <li><a style="color: #ffc706 !important;" class="text-white-50" href="bottle-making.html">Bottle Making Plant  </a></li>
-                            <li><a style="color: #ffc706 !important;" class="text-white-50" href="contact.html">Contact Us</a></li>  
-                        </ul>
-                        
-                        
-                        
-                        
-                    </div>
-                 
-                </div>
+        <!-- Gallery Start -->
+        <div class="py-2 col-lg-7">
+          <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row g-5 align-items-center image_gallery">
+              <div class="image col-lg-6">
+                <img
+                  class="col-lg-4"
+                  src="./img/MEB/bitumin storages/Bitumen tank.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="image col-lg-6">
+                <img
+                  class="col-lg-4"
+                  src="./img/MEB/bitumin storages/Bitumen Storage.jpg"
+                  alt=""
+                />
+              </div>
             </div>
-          
+          </div>
         </div>
-        <!-- Footer End -->
+        <!-- Gallery End -->
+      </div>
 
+   
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+      <!-- Footer Start -->
+      <div
+        class="container-fluid foot-back text-white-50 footer pt-5 mt-5 wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <div class="container py-5">
+          <div class="row g-5">
+            <div class="col-lg-4">
+              <img
+                src="./img/MEB/MEBLogo/Untitled-2.png"
+                alt=""
+                width="250px"
+              />
+              <p class="p-2">
+                We are dedicated to do business to serve the consumers and
+                customers in a unique and effective way. By doing so we shall
+                aim to be a dominant performer in the business categories that
+                we operate.
+              </p>
+              <p class="mb-2">
+                <i style="color: #ffc706" class="fa fa-phone-alt me-3"></i
+                >02-41361005
+              </p>
+              <p class="mb-2">
+                <i style="color: #ffc706" class="fa fa-fax me-3"></i>02-41361004
+              </p>
+              <p class="mb-2">
+                <i style="color: #ffc706" class="fa fa-envelope me-3"></i
+                >info@miclbd.com
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h3 class="text-white mb-4">Get In Touch</h3>
+              <p class="mb-2">
+                <b style="color: #ffc706">Corporate Office :</b>
+                Habib’s, (Level-4), 1574/A, East Nasirabad, Bayezid Bostami
+                Road, Opposite side of Nasirabad Housing Society (Road No-03),
+                Panchlaish, Chattogram - 4000, Bangladesh.
+              </p>
+              <p class="mb-2">
+                <b style="color: #ffc706">MICL Sales Office :</b>
+                269,Khatungonj,Chattogram.
+              </p>
+              <p class="mb-2">
+                <b style="color: #ffc706">Factory :</b> North
+                Patenga,CEPZ,CHattogram.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h3 class="text-white mb-4">Quick Links</h3>
+              <ul type="square">
+                <li>
+                  <a
+                    style="color: #ffc706 !important"
+                    class="text-white-50"
+                    href="about.html"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    style="color: #ffc706 !important"
+                    class="text-white-50"
+                    href="tank-terminal.html"
+                    >Storage Tank Terminal & Delivery Support Services</a
+                  >
+                </li>
+                <li>
+                  <a
+                    style="color: #ffc706 !important"
+                    class="text-white-50"
+                    href="bitumin-plant.html"
+                    >Bitumen Plant & Storage Tank</a
+                  >
+                </li>
+                <li>
+                  <a
+                    style="color: #ffc706 !important"
+                    class="text-white-50"
+                    href="#"
+                    >Physical Refinery Unit</a
+                  >
+                </li>
+                <li>
+                  <a
+                    style="color: #ffc706 !important"
+                    class="text-white-50"
+                    href="dry-friction.html"
+                    >Super Oil Refinery & Dry fractionation Unit</a
+                  >
+                </li>
+                <li>
+                  <a
+                    style="color: #ffc706 !important"
+                    class="text-white-50"
+                    href="oil-filling.html"
+                    >Edible Oil Filling Plant
+                  </a>
+                </li>
+                <li>
+                  <a
+                    style="color: #ffc706 !important"
+                    class="text-white-50"
+                    href="bottle-making.html"
+                    >Bottle Making Plant
+                  </a>
+                </li>
+                <li>
+                  <a
+                    style="color: #ffc706 !important"
+                    class="text-white-50"
+                    href="contact.html"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
+
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+        ><i class="bi bi-arrow-up"></i
+      ></a>
     </div>
 
     <!-- JavaScript Libraries -->
@@ -199,6 +320,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
