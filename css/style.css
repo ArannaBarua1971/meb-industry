@@ -4,6 +4,7 @@
     --light: #FFF5F3;
     --dark: #103741;
 }
+
 p{
     text-align: justify;
 }
@@ -28,6 +29,27 @@ p{
 .innovation_gallery li span{
     font-weight: 600 ;
     margin-right: 10px;
+}
+.innovation_gallery .list-group-item{
+    background-color: var(--primary);
+    color:var(--light);
+}
+.primaryBg{
+    background: var(--primary);
+    color: var(--light);
+}
+.social_link{
+    margin: 20px 0px;
+    width: 1005;
+}
+.social_link a{
+    padding: 10px 20px; 
+    margin-right: 10px;
+    border-radius: 10px;    
+    width: 20px;
+    height: 20px;
+    color: var(--light);
+    background: var(--primary);
 }
 
 
